@@ -1,0 +1,65 @@
+#bg-content{
+background: rgba(201, 70, 40, 0.95);
+backdrop-filter: blur(0px);
+-webkit-backdrop-filter: blur(0px);
+}
+.Content-heading{
+    color: #F5D500;
+    font-size: 3.5rem;
+    font-weight: 800;
+    line-height: 65px;
+}
+.paraContent{
+    color: white;
+    font-size: 1.1rem;
+}
+#Order-Now-btn{
+    background-color: white;
+    color: rgba(201, 70, 40, 1) ;
+    border-radius: 3px !important;
+    font-size: 15px;
+    font-weight: 500;
+    width: 150px;
+}
+
+.gallery-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+  
+  }
+  
+ 
+  .gallery-item {
+    position: relative;
+    width: 90%; 
+    max-width: 600px; 
+    height: 170px;
+    overflow: hidden; 
+    transform: skewx(-10deg);
+  }
+  
+
+  .gallery-item img {
+    width: 600px;
+    height: 170px;
+    object-fit: cover; 
+    
+
+  }
+  @media (max-width:420px) {
+    .gallery-item img {
+      width: 275px;
+      height: 170px;
+      object-fit: cover; 
+  
+    }
+    .gallery-item {
+ 
+      width: 260px; 
+      max-width: 300px; 
+     
+    }
+  }
+ 
